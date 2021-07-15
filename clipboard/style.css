@@ -142,12 +142,15 @@ footer a{
     
 
 }
-@media only screen and (max-width:375px){
-    body section{
+@media only screen and (max-width:385px){
+    section{
         width:100%;
-        overflow-y:hidden;
+        overflow:hidden;
         padding-top:2rem;
         
+    }
+    .main-infor{
+        height:90vh;
     }
     .main-infor img{
         width:20%;
